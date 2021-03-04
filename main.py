@@ -757,7 +757,7 @@ def FlightsClimbedGraph(start_date, end_date):
             
             {"label" : "Total Per Weekday", "method" : "update", "args" : [
                 {"visible" : [False, False, True], "x" : [New_Range]},
-                {"title" : f"Total Flights Climbed Per Day from {start_date} to {end_date}", "yaxis.title.text" : "Flights", "xaxis.dtick" : "M1", "xaxis.showgrid" : True}
+                {"title" : f"Total Flights Climbed Per Weekday from {start_date} to {end_date}", "yaxis.title.text" : "Flights", "xaxis.dtick" : "M1", "xaxis.showgrid" : True}
             ]}]
         }]
 
