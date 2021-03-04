@@ -243,8 +243,7 @@ app.layout = html.Div(
 
 @cache.memoize(timeout=TIMEOUT)
 def query_data():
-    df = "Data/data.feather"
-    return df
+    return "Data/data.feather"
 
 def dataframe():
     return pd.read_feather(query_data())
@@ -254,8 +253,6 @@ def dataframe():
 def Expliantions(value):
     if value is not None:
         return Explination_Table[value]["Explination"]
-    else:
-        pass
 
 @app.callback(Output("DatePicker", "disabled"),
              Output("DatePicker", "start_date"),
