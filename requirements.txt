@@ -1,0 +1,17 @@
+dash
+plotly
+gunicorn
+lxml
+numpy
+pandas
+pyarrow
+datetime
+tempfile 
+zipfile 
+lxml 
+json 
+Flask-Caching
+Flash
+dash-resumable-upload-bb
+
+
