@@ -1,34 +1,49 @@
 
 def Get_Drop_Choices():
-    Drop_Choices = [
-    
-    {"label" : "Active Energy Burned", "value" : "HKQuantityTypeIdentifierActiveEnergyBurned"},
-
-    {"label" : "Apple Exercise Time", "value" : "HKQuantityTypeIdentifierAppleExerciseTime"},
-
-    {"label" : "Apple Stand Time", "value" : "HKQuantityTypeIdentifierAppleStandTime"},
-
-    {"label" : "Basal Energy Burned", "value" : "HKQuantityTypeIdentifierBasalEnergyBurned"},
-
-    {"label" : "Distance Walking Running", "value" : "HKQuantityTypeIdentifierDistanceWalkingRunning"},
-
-    {"label" : "Environmental Audio Exposure", "value" : "HKQuantityTypeIdentifierEnvironmentalAudioExposure"},
-
-    {"label" : "Flights Climbed", "value" : "HKQuantityTypeIdentifierFlightsClimbed"},
-
-    {"label" : "Heart Rate", "value" : "HKQuantityTypeIdentifierHeartRate"},
-
-    {"label" : "Step Count", "value" : "HKQuantityTypeIdentifierStepCount"},
-
-    {"label" : "Heart Rate Standard Deviation", "value" : "HKQuantityTypeIdentifierHeartRateVariabilitySDNN"},
-    
-    {"label" : "Walking Heart Rate Average", "value" : "HKQuantityTypeIdentifierWalkingHeartRateAverage"},
-
-    {"label" : "Resting Heart Rate", "value" : "HKQuantityTypeIdentifierRestingHeartRate"},
-      
+    return [
+        {
+            "label": "Active Energy Burned",
+            "value": "HKQuantityTypeIdentifierActiveEnergyBurned",
+        },
+        {
+            "label": "Apple Exercise Time",
+            "value": "HKQuantityTypeIdentifierAppleExerciseTime",
+        },
+        {
+            "label": "Apple Stand Time",
+            "value": "HKQuantityTypeIdentifierAppleStandTime",
+        },
+        {
+            "label": "Basal Energy Burned",
+            "value": "HKQuantityTypeIdentifierBasalEnergyBurned",
+        },
+        {
+            "label": "Distance Walking Running",
+            "value": "HKQuantityTypeIdentifierDistanceWalkingRunning",
+        },
+        {
+            "label": "Environmental Audio Exposure",
+            "value": "HKQuantityTypeIdentifierEnvironmentalAudioExposure",
+        },
+        {
+            "label": "Flights Climbed",
+            "value": "HKQuantityTypeIdentifierFlightsClimbed",
+        },
+        {"label": "Heart Rate", "value": "HKQuantityTypeIdentifierHeartRate"},
+        {"label": "Step Count", "value": "HKQuantityTypeIdentifierStepCount"},
+        {
+            "label": "Heart Rate Standard Deviation",
+            "value": "HKQuantityTypeIdentifierHeartRateVariabilitySDNN",
+        },
+        {
+            "label": "Walking Heart Rate Average",
+            "value": "HKQuantityTypeIdentifierWalkingHeartRateAverage",
+        },
+        {
+            "label": "Resting Heart Rate",
+            "value": "HKQuantityTypeIdentifierRestingHeartRate",
+        },
     ]
-
-    return Drop_Choices
 
 
 Explination_Table = {
